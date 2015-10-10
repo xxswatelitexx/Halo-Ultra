@@ -1,0 +1,56 @@
+{
+  "itemName" : "CQC_helmet",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "This armor was worn by the legendary Spartan II's",
+  "shortdescription" : "CQC helmet",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 0
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 0
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 0
+    }
+  ],
+
+"colorOptions" : [
+    /* GREEN */
+    { "1d260d" : "1d260d", "2d3d15" : "2d3d15", "40531e" : "40531e", "566d29" : "566d29", "7b9b39" : "7b9b39", "8a4e00" : "8a4e00", "ff9907" : "ff9907", "ffc107" : "ffc107" },
+    /* BLACK */
+    { "1d260d" : "0a0a0a", "2d3d15" : "101010", "40531e" : "161616", "566d29" : "1e1e1e", "7b9b39" : "2a2a2a" },
+    /* GREY */
+    { "1d260d" : "191919", "2d3d15" : "292929", "40531e" : "383838", "566d29" : "4b4b4b", "7b9b39" : "4b4b4b" },
+    /* WHITE */
+    { "1d260d" : "333333", "2d3d15" : "515151", "40531e" : "afafaf", "566d29" : "b7b7b7", "7b9b39" : "c3c3c3" },
+    /* RED */
+    { "1d260d" : "260e0d", "2d3d15" : "3d1815", "40531e" : "531f1e", "566d29" : "6d2929", "7b9b39" : "9b393a", "8a4e00" : "7c0d0f", "ff9907" : "e6201f", "ffc107" : "e6401f" },
+    /* ORANGE */
+    { "1d260d" : "321a00", "2d3d15" : "512e01", "40531e" : "6d3a03", "566d29" : "8e4b07", "7b9b39" : "cb6808", "8a4e00" : "843400", "ff9907" : "f36907", "ffc107" : "f38f07" },
+    /* YELLOW */
+    { "1d260d" : "2e2805", "2d3d15" : "4a4308", "40531e" : "64570c", "566d29" : "837113", "7b9b39" : "bb9f19", "8a4e00" : "8a7b00", "ff9907" : "ffeb07", "ffc107" : "eaff07" },
+    /* BLUE */
+    { "1d260d" : "0d1926", "2d3d15" : "15263d", "40531e" : "1e3753", "566d29" : "294a6d", "7b9b39" : "396a9b", "8a4e00" : "00808a", "ff9907" : "07e8ff", "ffc107" : "91feff" },
+    /* PURPLE */
+    { "1d260d" : "150c26", "2d3d15" : "25143e", "40531e" : "311d54", "566d29" : "3f276e", "7b9b39" : "57369d", "8a4e00" : "4d008a", "ff9907" : "9807ff", "ffc107" : "c007ff" },
+    /* PINK */
+    { "1d260d" : "290a19", "2d3d15" : "421025", "40531e" : "591736", "566d29" : "75214a", "7b9b39" : "a72d6a", "8a4e00" : "80085c", "ff9907" : "ef17a9", "ffc107" : "ef1786" },
+    /* BROWN */
+    { "1d260d" : "231d0f", "2d3d15" : "393019", "40531e" : "4d4023", "566d29" : "665430", "7b9b39" : "917643" }
+  ]
+}

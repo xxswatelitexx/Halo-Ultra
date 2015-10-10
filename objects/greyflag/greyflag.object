@@ -1,0 +1,31 @@
+{
+  "objectName" : "greyflag",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "",
+  "shortdescription" : "Gray Flag",
+
+  "apexDescription" : "A large grey flag.",
+  "avianDescription" : "A large grey flag.",
+  "floranDescription" : "A large grey flag.",
+  "glitchDescription" : "A large grey flag.",
+  "humanDescription" : "A large grey flag.",
+  "hylotlDescription" : "A large grey flag.",
+
+  "inventoryIcon" : "greyflagicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "greyflag.png:default.<frame>",
+	  
+      "imagePosition" : [-16, -16],
+      "frames" : 13,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

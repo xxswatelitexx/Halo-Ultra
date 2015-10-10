@@ -1,0 +1,4 @@
+[
+{"op":"add","path":"/initialcodex/elite","value":["controls","eliteprologue","eliteorigins","elitenotes","survivalguide"]},
+{"op":"add","path":"/initialcodex/brute","value":["controls","bruteprologue","bruteorigins","brutenotes","brutecannibals","survivalguide"]}
+]

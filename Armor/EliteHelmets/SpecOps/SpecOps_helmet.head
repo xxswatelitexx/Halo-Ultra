@@ -1,0 +1,56 @@
+{
+  "itemName" : "SpecOps_helmet",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "On the blood of our fathers, on the blood of our sons... we swore to uphold the Covenant!",
+  "shortdescription" : "SpecOps helmet",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 0
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 0
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 0
+    }
+  ],
+
+"colorOptions" : [
+    /* BLUE*/
+    { "05182e" : "05182e", "08244a" : "08244a", "134a83" : "134a83", "196bbb" : "196bbb", "86c2ff" : "86c2ff" },
+    /* BLACK */
+    { "05182e" : "0a0a0a", "08244a" : "101010", "134a83" : "1e1e1e", "196bbb" : "2a2a2a", "86c2ff" : "e0e0e0" },
+    /* GREY */
+    { "05182e" : "191919", "08244a" : "292929", "134a83" : "4b4b4b", "196bbb" : "6a6a6a", "86c2ff" : "c2c2c2" },
+    /* WHITE */
+    { "05182e" : "191919", "08244a" : "949494", "134a83" : "a5a5a5", "196bbb" : "b4b4b4", "86c2ff" : "e0e0e0" },
+    /* RED */
+    { "05182e" : "2e0605", "08244a" : "4a0d08", "134a83" : "831413", "196bbb" : "bb191a", "86c2ff" : "ff8686" },
+    /* ORANGE */
+    { "05182e" : "331b00", "08244a" : "522f00", "134a83" : "964c00", "196bbb" : "d46800", "86c2ff" : "ffc286" },
+    /* YELLOW */
+    { "05182e" : "332c00", "08244a" : "524a00", "134a83" : "967e00", "196bbb" : "d4af00", "86c2ff" : "ffea86" },
+    /* GREEN */
+    { "05182e" : "1f2e05", "08244a" : "2f4a08", "134a83" : "5d8313", "196bbb" : "86bb19", "86c2ff" : "d7ff86" },
+    /* PURPLE */
+    { "05182e" : "1b052e", "08244a" : "2e084a", "134a83" : "4c1383", "196bbb" : "6919bb", "86c2ff" : "c286ff" },
+    /* PINK */
+    { "05182e" : "330018", "08244a" : "520023", "134a83" : "960049", "196bbb" : "d4006b", "86c2ff" : "ff86c2" },
+    /* BROWN */
+    { "05182e" : "2a2009", "08244a" : "43350e", "134a83" : "785a1e", "196bbb" : "ab7e29", "86c2ff" : "f3d292" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "orangeflag",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "",
+  "shortdescription" : "Orange Flag",
+
+  "apexDescription" : "A large orange flag.",
+  "avianDescription" : "A large orange flag.",
+  "floranDescription" : "A large orange flag.",
+  "glitchDescription" : "A large orange flag.",
+  "humanDescription" : "A large orange flag.",
+  "hylotlDescription" : "A large orange flag.",
+
+  "inventoryIcon" : "orangeflagicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "orangeflag.png:default.<frame>",
+	  
+      "imagePosition" : [-16, -16],
+      "frames" : 13,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "output": {
+        "item": "TemplateArmortier1_pants",
+        "count": 1,
+        "data": {
+            "colorIndex": 3
+        }
+    },
+    "input": [
+        {
+            "item": "WhiteSpray",
+            "count": 1
+        },
+        {
+            "item": "TemplateArmortier1_pants",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "SprayStation",
+        "all"
+    ]
+}

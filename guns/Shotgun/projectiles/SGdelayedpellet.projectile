@@ -1,0 +1,20 @@
+{
+  "projectileName" : "SGdelayedpellet",
+  "frames" : "SGpellets.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "speed" : 1,
+  "timeToLive" : 0.01,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "SGpellet",
+      "inheritDamageFactor" : 1
+    }
+  ],
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "ArmorLocker",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "ArmorLocker" ]
+  },
+  "printable" : false,
+  "description" : "They let me pick you know...",
+  "shortdescription" : "Halo Armor Locker",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "This locker contains armors of legend!",
+  "avianDescription" : "This locker contains armors of legend!",
+  "floranDescription" : "This locker contains armors of legend!",
+  "glitchDescription" : "This locker contains armors of legend!",
+  "humanDescription" : "This locker contains armors of legend!",
+  "hylotlDescription" : "This locker contains armors of legend!",
+
+  "inventoryIcon" : "ArmorLockericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ArmorLocker.png:default.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

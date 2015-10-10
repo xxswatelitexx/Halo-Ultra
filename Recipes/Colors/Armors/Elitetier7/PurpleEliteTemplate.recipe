@@ -1,0 +1,23 @@
+{
+    "output": {
+        "item": "EliteTemplatetier7_chest",
+        "count": 1,
+        "data": {
+            "colorIndex": 8
+        }
+    },
+    "input": [
+        {
+            "item": "PurpleSpray",
+            "count": 1
+        },
+        {
+            "item": "EliteTemplatetier7_chest",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "SprayStation",
+        "all"
+    ]
+}

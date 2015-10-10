@@ -1,0 +1,24 @@
+{
+  "projectileName" : "BruteShotprojectile",
+  "physics" : "bouncer",
+  "level" : 1,
+  "piercing" : false,
+  "frames" : "BruteShotprojectile.png",
+  "damageKindImage" : "BruteShotprojectile.png",
+  "speed" : 100,
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "power" : 5,
+  "actionOnReap" : [
+  {
+      "action" : "config",
+      "file" : "/guns/BruteShot/projectiles/BruteShot.config"
+    }, 
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion/regularexplosion.config"
+    }
+  ],
+  "lightColor" : [181, 166, 66],
+  "damageKind" : "default"
+}

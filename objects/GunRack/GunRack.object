@@ -1,0 +1,38 @@
+{
+  "objectName" : "GunRack",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "GunRack" ]
+  },
+  "printable" : false,
+  "description" : "I need a Weapon!",
+  "shortdescription" : "Gun Rack",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "GunRack",
+  "avianDescription" : "GunRack",
+  "floranDescription" : "GunRack",
+  "glitchDescription" : "GunRack",
+  "humanDescription" : "GunRack",
+  "hylotlDescription" : "GunRack",
+
+  "inventoryIcon" : "GunRackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "GunRack.png:default.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

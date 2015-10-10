@@ -1,0 +1,30 @@
+{
+  "itemName" : "BR",
+  "inventory" : "BR1.png",
+  "description" : "BR",
+  "shortdescription" : "BR",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 1,
+  "rarity" : "Common",
+  "inspectionKind" : "gun",
+  "image" : "BR1.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [-1, -2],
+  "firePosition" : [8, 0],
+  "classMultiplier" : 0.55,
+
+  "fireTime" : 0.4,
+  "twoHanded" : true,
+
+  "projectileType" : "BRbullet",
+  "projectile" : {
+"power" : 1.8,
+"speed" : 80,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/BR/sfx/BRsound.ogg" } ]
+  }
+}

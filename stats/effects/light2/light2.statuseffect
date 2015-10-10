@@ -1,0 +1,14 @@
+{
+  "name" : "light2",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "light2.lua"
+  ],
+
+  "animationConfig" : "light2.animation",
+
+  "label" : "light2",
+  "icon" : "/items/oracle/Oracleicon.png"
+}

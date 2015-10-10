@@ -1,0 +1,37 @@
+{
+  "objectName" : "Cortana",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "Cortana" ]
+  },
+  "printable" : false,
+  "description" : "Don't make a girl a promise you know you can't keep.",
+  "shortdescription" : "Cortana",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "Cortana",
+  "avianDescription" : "Cortana",
+  "floranDescription" : "Cortana",
+  "glitchDescription" : "Cortana",
+  "humanDescription" : "Cortana",
+  "hylotlDescription" : "Cortana",
+
+  "inventoryIcon" : "Cortanaicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "Cortana.png:default.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 10,
+      "animationCycle" : 2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

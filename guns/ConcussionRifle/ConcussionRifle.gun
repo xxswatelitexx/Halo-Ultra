@@ -1,0 +1,31 @@
+{
+  "itemName" : "ConcussionRifle",
+  "inventory" : "ConcussionRifle.png",
+  "description" : "Concussion Rifle",
+  "shortdescription" : "Concussion Rifle",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 5,
+  "rarity" : "Legendary",
+  "inspectionKind" : "gun",
+  "image" : "ConcussionRifle.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [2, 0],
+  "firePosition" : [0 , 1],
+  "classMultiplier" : 0.1,
+
+  "fireTime" : 0.45,
+  "twoHanded" : true,
+  "tileDamage": 1000,
+
+  "projectileType" : "ConcussionRifleProjectile",
+  "projectile" : {
+"power" : 77,
+"speed" : 20,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/ConcussionRifle/sfx/ConcussionRiflesound.ogg" } ]
+  }
+}

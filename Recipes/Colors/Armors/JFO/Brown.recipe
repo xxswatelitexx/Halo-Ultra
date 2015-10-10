@@ -1,0 +1,23 @@
+{
+    "output": {
+        "item": "JFO_helmet",
+        "count": 1,
+        "data": {
+            "colorIndex": 10
+        }
+    },
+    "input": [
+        {
+            "item": "BrownSpray",
+            "count": 1
+        },
+        {
+            "item": "JFO_helmet",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "SprayStation",
+        "all"
+    ]
+}

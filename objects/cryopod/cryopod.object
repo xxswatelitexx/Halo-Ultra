@@ -1,0 +1,45 @@
+{
+  "objectName" : "cryopod",
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "Wake me, when you need me.",
+  "shortdescription" : "Cryogenic Pod",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1500,
+
+  "apexDescription" : "...",
+  "avianDescription" : "...",
+  "floranDescription" : "...",
+  "glitchDescription" : "...",
+  "humanDescription" : "...",
+  "hylotlDescription" : "...",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 10],
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitEmote" : "sleep",
+  "sitCoverImage" : "/objects/cryopod/cryopodcover.png",
+  "sitStatusEffects" : [
+	"regeneration3"
+  ],
+
+  "inventoryIcon" : "cryopodicon.png",
+  "orientations" : [
+    {
+      "image" : "cryopod.png:default.<frame>",
+	  "direction" : "right",
+	  
+
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

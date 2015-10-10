@@ -1,0 +1,23 @@
+{
+    "output": {
+        "item": "Ultra_helmet",
+        "count": 1,
+        "data": {
+            "colorIndex": 7
+        }
+    },
+    "input": [
+        {
+            "item": "GreenSpray",
+            "count": 1
+        },
+        {
+            "item": "Ultra_helmet",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "SprayStation",
+        "all"
+    ]
+}

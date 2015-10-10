@@ -1,0 +1,30 @@
+{
+  "itemName" : "Magnum1",
+  "inventory" : "Magnum1.png",
+  "description" : "magnum",
+  "shortdescription" : "magnum",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 1,
+  "rarity" : "Common",
+  "inspectionKind" : "gun",
+  "image" : "Magnum1.png",
+  "recoilTime" : 0.0,
+  "handPosition" : [0, -1],
+  "firePosition" : [0, 2],
+  "classMultiplier" : 1.6,
+
+  "fireTime" : 0.3,
+  "twoHanded" : false,
+
+  "projectileType" : "magnumbullet",
+  "projectile" : {
+"power" : 0.9,
+"speed" : 80,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/magnum1/sfx/magnumsound.ogg" } ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id" : "elitetutorial.gearup",
+  "title" : "^#9be3d6;Dispatched for Peace!",
+  "text" : "The ship is in need of some immediate repairs, perhaps you should talk to this ships S.A.I.L. unit about ^green;fixing the ship?",
+  "completionText" : "Well done. Now you can fuel up.",
+  "conditions" : [
+    { "kind" : "trigger", "trigger" : "ai.repairthrusters" }
+  ],
+  "moneyRange" : [500, 500],
+  "planetMode" : "none",
+  "followUp" : "ftlrepairmain.gearup",
+  "questDungeons" : [ ],
+  "canBeAbandoned" : false
+}

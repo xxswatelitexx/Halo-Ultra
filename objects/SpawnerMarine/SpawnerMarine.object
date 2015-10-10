@@ -1,0 +1,55 @@
+{
+  "objectName" : "SpawnerMarine",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Spawn your very own marine!",
+  "shortdescription" : "marine Spawner",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "I could do with some extra protection from the Miniknog.",
+  "avianDescription" : "With a marine, Kluex wouldn't dare touch me.",
+  "floranDescription" : "Floran can guard ssself! But more marine not hurt.",
+  "glitchDescription" : "Content. There is strength in numbers.",
+  "humanDescription" : "I've always wanted an entourage.",
+  "hylotlDescription" : "marine could help me spread peace.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_marine.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/SpawnerMarine/marine.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_marine.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "human" ],
+    "npcTypeOptions" : [ "marine" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

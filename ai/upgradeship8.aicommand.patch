@@ -1,0 +1,4 @@
+[
+{"op":"copy","from":"/speciesText/human","path":"/speciesText/elite"},
+{"op":"copy","from":"/speciesText/human","path":"/speciesText/brute"}
+]

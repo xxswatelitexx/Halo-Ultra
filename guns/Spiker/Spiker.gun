@@ -1,0 +1,30 @@
+{
+  "itemName" : "Spiker",
+  "inventory" : "Spiker.png",
+  "description" : "Type-25 Carbine",
+  "shortdescription" : "Spiker",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 1,
+  "rarity" : "Common",
+  "inspectionKind" : "gun",
+  "image" : "Spiker.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [-5, 0],
+  "firePosition" : [0, 1],
+  "classMultiplier" : 2,
+
+  "fireTime" : 0.15,
+  "twoHanded" : false,
+
+  "projectileType" : "Spikerprojectile",
+  "projectile" : {
+"power" : 0.07,
+"speed" : 80,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/Spiker/sfx/Spikersound.ogg" } ]
+  }
+}

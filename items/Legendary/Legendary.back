@@ -1,0 +1,22 @@
+{
+"itemName" : "Legendary",
+"inventoryIcon" : "Legendaryicon.png",
+"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+"rarity" : "Common",
+  "description" : "The stuff of legends",
+  "shortdescription" : "The stuff of legends",
+
+"maleFrames" : "Legendaryback.png",
+"femaleFrames" : "Legendaryback.png",
+
+"statusEffects" : [
+    { "kind" : "glow",
+      "amount" : 6,
+      "color" : [255, 168, 81]
+    }
+	
+],
+  "colorOptions" : [
+    /* NONE */
+	]
+} 

@@ -1,0 +1,31 @@
+{
+  "objectName" : "LargeDisplay",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "A large monitor displaying the UNSC emblem",
+  "shortdescription" : "Large Display",
+
+  "apexDescription" : "A large monitor displaying the UNSC emblem",
+  "avianDescription" : "A large monitor displaying the UNSC emblem",
+  "floranDescription" : "A large monitor displaying the UNSC emblem",
+  "glitchDescription" : "A large monitor displaying the UNSC emblem",
+  "humanDescription" : "A large monitor displaying the UNSC emblem",
+  "hylotlDescription" : "A large monitor displaying the UNSC emblem",
+
+  "inventoryIcon" : "LargeDisplayicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "LargeDisplay.png:default.<frame>",
+	  
+      "imagePosition" : [-16, -16],
+      "frames" : 6,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

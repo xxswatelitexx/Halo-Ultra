@@ -1,0 +1,119 @@
+{
+  "type" : "Combatelite",
+  "baseType" : "villageguard",
+
+  "disableWornArmor" : false,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 2,
+  "levelVariance" : [0, 0],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "patrolDistance" : 25,
+      "noticeDistance" : 30,
+      "hailDistance" : 5,
+      "stopDistance" : -1,
+      "attackDistance" : -1,
+      "loseSightTime" : 10,
+      "loseSightDistance" : 30,
+      "wallCheckDistance" : 5,
+      "changeDirectionTimeRange" : [10, 20],
+
+      "attackSayingPercent" : 25,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "Haaaarrrgh!"
+          ],
+          "elite" : {
+            "default" : [
+              "Wort Wort Wort!"
+            ]
+          }
+        }
+      }
+    },
+
+    "returnToPost" : {
+      "moveTime" : 20,
+      "minDistance" : 2
+    },
+
+    "rangedAttack" : {
+      "maxDistance" : 30
+    }
+  },
+
+  "items" : {
+    "elite" : [
+      [0, [
+          {
+		   "head" : [ { "name" : "Combat_helmet", "data" : { "colorIndex" : 0 } } ],
+            "chest" : [ { "name" : "EliteTemplatetier1_chest", "data" : { "colorIndex" : 0 } } ],
+            "legs" : [ { "name" : "EliteTemplatetier1_pants", "data" : { "colorIndex" : 0 } } ],
+            "primary" : [
+              { "name" : "PlasmaRifle1" }
+            ]
+          }
+        ] ],
+		[1, [
+          {
+		   "head" : [ { "name" : "Combat_helmet", "data" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "EliteTemplatetier1_chest", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "EliteTemplatetier1_pants", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "PlasmaRifle1" }
+            ]
+          }
+        ] ],
+		[2, [
+          {
+		   "head" : [ { "name" : "Combat_helmet", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "EliteTemplatetier1_chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "EliteTemplatetier1_pants", "data" : { "colorIndex" : 6 } } ],
+            "primary" : [
+              { "name" : "PlasmaRifle1" }
+            ]
+          }
+        ] ]
+		
+    ]
+  },
+
+  "dropPools" : [ "prisongunmantreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 12,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 15.0
+  }
+}
+

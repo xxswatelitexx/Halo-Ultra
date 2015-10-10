@@ -1,0 +1,8 @@
+{
+  "input" : [
+   
+    { "item" : "ironbar", "count" : 2 }
+  ],
+  "output" : { "item" : "SPI_helmet", "count" : 1 },
+  "groups" : [ "mod", "ArmorLocker", "armors", "all" ]
+}

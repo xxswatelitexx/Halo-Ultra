@@ -1,0 +1,7 @@
+{
+  "input" : [
+      { "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "TemplateArmortier4_chest", "count" : 1},
+  "groups" : [ "mod", "ArmorLocker", "armors", "all" ]
+}

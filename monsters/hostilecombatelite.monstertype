@@ -1,0 +1,44 @@
+{
+  "type" : "hostilecombatelite",
+
+  "categories" : [ "hostilecombatelite" ],
+  "parts" : [ "body" ],
+
+  "animation" : "hostilecombatelite.animation",
+  "projectiles" : "/monsters/projectiles.config",
+  "colors" : "/monsters/colors.config",
+  
+
+  "baseParameters" : {
+    "scripts" : [
+      "/scripts/hostilehooks.lua"
+    ],
+
+    "scriptDelta" : 5,
+
+    "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-2.0, -2.5], [2.0, -2.5], [0.5, 1.0], [-0.5, 1.0] ],
+
+      "mass" : 100.0,
+      "walkSpeed" : 0,
+      "runSpeed" : 0,
+      "jumpSpeed" : 0,
+      "flySpeed" : 0,
+      "airFriction" : 100.0,
+      "airForce" : 0.0
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "statusParameters" : {
+      "baseMaxHealth" : 9,
+      "bodyMaterialKind" : "organic"
+    },
+	
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -20]
+  }
+}

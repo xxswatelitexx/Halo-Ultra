@@ -1,0 +1,12 @@
+{
+  "eliteStarterTreasure" : [
+		[0, {
+			"fill" : [
+				{ "pool" : "starterTreasure" },
+				{ "item" : [ "humanstarter", 1]},
+				{ "item" : [ "humantier1shortsword", 1] }
+			]
+		} ]
+	]
+}
+

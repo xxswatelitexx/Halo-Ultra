@@ -1,0 +1,31 @@
+{
+  "objectName" : "pinkflag",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "Kill the Greens!!!",
+  "shortdescription" : "Pink Flag",
+
+  "apexDescription" : "A large pink flag.",
+  "avianDescription" : "A large pink flag.",
+  "floranDescription" : "A large pink flag.",
+  "glitchDescription" : "A large pink flag.",
+  "humanDescription" : "A large pink flag.",
+  "hylotlDescription" : "A large pink flag.",
+
+  "inventoryIcon" : "pinkflagicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pinkflag.png:default.<frame>",
+	  
+      "imagePosition" : [-16, -16],
+      "frames" : 13,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

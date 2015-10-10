@@ -1,0 +1,38 @@
+{
+  "objectName" : "medicstation",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "medicstation" ]
+  },
+  "printable" : false,
+  "description" : "Time for some treatment",
+  "shortdescription" : "Medical Station",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "This locker contains armors of legend!",
+  "avianDescription" : "This locker contains armors of legend!",
+  "floranDescription" : "This locker contains armors of legend!",
+  "glitchDescription" : "This locker contains armors of legend!",
+  "humanDescription" : "This locker contains armors of legend!",
+  "hylotlDescription" : "This locker contains armors of legend!",
+
+  "inventoryIcon" : "medicstationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medicstation.png:default.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 8,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

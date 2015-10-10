@@ -1,0 +1,31 @@
+{
+  "objectName" : "FloodPod",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "A Flood containment pod",
+  "shortdescription" : "Flood Pod",
+
+  "apexDescription" : "A monument to all your sins",
+  "avianDescription" : "A monument to all your sins",
+  "floranDescription" : "A monument to all your sins",
+  "glitchDescription" : "A monument to all your sins",
+  "humanDescription" : "A monument to all your sins",
+  "hylotlDescription" : "A monument to all your sins",
+
+  "inventoryIcon" : "FloodPodicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "FloodPod.png:default.<frame>",
+	  
+      "imagePosition" : [-16, -16],
+      "frames" : 3,
+      "animationCycle" : 5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

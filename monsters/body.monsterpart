@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "hostilecombatelite",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "hostilecombatelite.png"
+  }
+}

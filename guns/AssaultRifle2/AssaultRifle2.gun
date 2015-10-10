@@ -1,0 +1,30 @@
+{
+  "itemName" : "AssaultRifle2",
+  "inventory" : "AssaultRifle2.png",
+  "description" : "AssaultRifle",
+  "shortdescription" : "AssaultRifle",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 10,
+  "rarity" : "Legendary",
+  "inspectionKind" : "gun",
+  "image" : "AssaultRifle2.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [-3, -2],
+  "firePosition" : [7, 1],
+  "classMultiplier" : 0.1,
+
+  "fireTime" : 0.08,
+  "twoHanded" : true,
+
+  "projectileType" : "AssaultRifle1projectile",
+  "projectile" : {
+"power" : 259,
+"speed" : 80,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/AssaultRifle1/sfx/AssaultRifle1sound.ogg" } ]
+  }
+}

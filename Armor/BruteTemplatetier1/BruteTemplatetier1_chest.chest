@@ -1,0 +1,65 @@
+{
+  "itemName" : "BruteTemplatetier1_chest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "This armor was worn by the terrifying Sangheili",
+  "shortdescription" : "Sangheili Chestpiece Tier 1",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 15
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 10
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 8
+    }
+  ],
+
+"colorOptions" : [
+    /* BLUE*/
+    { "00213c" : "00213c", "00457d" : "00457d", "0079dd" : "0079dd", "3ea8ff" : "3ea8ff" },
+    /* BLACK */
+    { "00213c" : "000000", "00457d" : "202020", "0079dd" : "373737", "3ea8ff" : "414141" },
+    /* GREY */
+    { "00213c" : "353535", "00457d" : "474c4c", "0079dd" : "666969", "3ea8ff" : "787979" },
+    /* WHITE */
+    { "00213c" : "353535", "00457d" : "919696", "0079dd" : "afb2b2", "3ea8ff" : "c1c2c2" },
+    /* RED */
+    { "00213c" : "391518", "00457d" : "662429", "0079dd" : "a03840", "3ea8ff" : "c2525a" },
+    /* ORANGE */
+    { "00213c" : "3d1b10", "00457d" : "6e311c", "0079dd" : "ac4c2b", "3ea8ff" : "cf6844" },
+    /* YELLOW */
+    { "00213c" : "352c0b", "00457d" : "594911", "0079dd" : "997d20", "3ea8ff" : "cfaa2c" },
+    /* GREEN */
+    { "00213c" : "002f1e", "00457d" : "006c46", "0079dd" : "009f68", "3ea8ff" : "00e193" },
+    /* PURPLE */
+    { "00213c" : "290b37", "00457d" : "50156c", "0079dd" : "7c21a9", "3ea8ff" : "af51dd" },
+    /* PINK */
+    { "00213c" : "280000", "00457d" : "670027", "0079dd" : "9b0d57", "3ea8ff" : "b6377c" },
+    /* BROWN */
+    { "00213c" : "23170c", "00457d" : "51351b", "0079dd" : "774f28", "3ea8ff" : "a86f38" }
+
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "brownflag",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "",
+  "shortdescription" : "Brown Flag",
+
+  "apexDescription" : "A large brown flag.",
+  "avianDescription" : "A large brown flag.",
+  "floranDescription" : "A large brown flag.",
+  "glitchDescription" : "A large brown flag.",
+  "humanDescription" : "A large brown flag.",
+  "hylotlDescription" : "A large brown flag.",
+
+  "inventoryIcon" : "brownflagicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "brownflag.png:default.<frame>",
+	  
+      "imagePosition" : [-16, -16],
+      "frames" : 13,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemName" : "Mauler",
+  "inventory" : "Mauler.png",
+  "description" : "Mauler",
+  "shortdescription" : "Mauler",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 2,
+  "timeToLive" : 0.01,
+  "rarity" : "uncommon",
+  "inspectionKind" : "gun",
+  "image" : "Mauler.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [-1, -1],
+  "firePosition" : [0, 2],
+  "classMultiplier" : 0.01,
+
+  "fireTime" : 0.75,
+  "twoHanded" : false,
+
+  "projectileType" : "Maulerbullet",
+  "projectile" : {
+"power" : 1,
+"speed" : 80,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/Mauler/sfx/Maulersound.ogg" } ]
+  }
+}

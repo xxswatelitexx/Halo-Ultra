@@ -1,0 +1,295 @@
+{
+  "type" : "Halomerchant",
+  
+  "damageTeam" : 1,
+  
+  "levelVariance" : [0, 0],
+
+  "disableWornArmor" : false,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/chatState.lua",
+    "/npcs/fleeState.lua",
+    "/npcs/sitState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua",
+
+    "/npcs/merchant/merchantState.lua",
+    "/npcs/merchant/returnToStoreState.lua"
+  ],
+  "scriptDelta" : 5,
+  "scriptConfig" : {
+    "idleTimeRange" : [2.0, 10.0],
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : 8,
+
+      "dialog" : {
+        "start" : {
+			"default" : [
+				"I know what the ladies like."
+			]
+		  }
+       
+	},
+
+      "categories" : [ "guns" ],
+      "priceVarianceRange" : [0.75, 1.25],
+      "numItems" : 33,
+
+      "items" : {
+		"Sargeant" : [
+          [0, [
+			{ "item" : { "name" : "AssaultRifle1" }, "cost" : 1 },
+			{ "item" : { "name" : "AssaultRifle2" }, "cost" : 1 },
+			{ "item" : { "name" : "BeamRifle" }, "cost" : 1 },
+			{ "item" : { "name" : "BeamRifleB" }, "cost" : 1 },
+			{ "item" : { "name" : "BR" }, "cost" : 1 },
+			{ "item" : { "name" : "BR2" }, "cost" : 1 },
+			{ "item" : { "name" : "BruteShot" }, "cost" : 1 },
+			{ "item" : { "name" : "Carbine" }, "cost" : 1 },
+			{ "item" : { "name" : "ConcussionRifle" }, "cost" : 1 },
+			{ "item" : { "name" : "EnergySword1" }, "cost" : 1 },
+			{ "item" : { "name" : "EnergySword2" }, "cost" : 1 },
+			{ "item" : { "name" : "FlameThrower" }, "cost" : 1 },
+			{ "item" : { "name" : "FuelRodCannon" }, "cost" : 1 },
+			{ "item" : { "name" : "Hammer" }, "cost" : 1 },
+			{ "item" : { "name" : "Magnum1" }, "cost" : 1 },
+			{ "item" : { "name" : "Magnum2" }, "cost" : 1 },
+			{ "item" : { "name" : "Mauler" }, "cost" : 1 },
+			{ "item" : { "name" : "Needler1" }, "cost" : 1 },
+			{ "item" : { "name" : "NeedleRifle" }, "cost" : 1 },
+			{ "item" : { "name" : "PlasmaLauncher" }, "cost" : 1 },
+			{ "item" : { "name" : "PlasmaRifle1" }, "cost" : 1 },
+			{ "item" : { "name" : "PlasmaRifle2" }, "cost" : 1 },
+			{ "item" : { "name" : "RocketLauncher" }, "cost" : 1 },
+			{ "item" : { "name" : "RocketLauncher2" }, "cost" : 1 },
+			{ "item" : { "name" : "RocketLauncher3" }, "cost" : 1 },
+			{ "item" : { "name" : "SentinelBeam" }, "cost" : 1 },
+			{ "item" : { "name" : "Shotgun" }, "cost" : 1 },
+			{ "item" : { "name" : "Shotgun2" }, "cost" : 1 },
+			{ "item" : { "name" : "SMG" }, "cost" : 1 },
+			{ "item" : { "name" : "Sniper1" }, "cost" : 1 },
+			{ "item" : { "name" : "Sniper2" }, "cost" : 1 },
+			{ "item" : { "name" : "Splazer" }, "cost" : 1 },
+			{ "item" : { "name" : "Spiker" }, "cost" : 1 }
+          ]]
+        ]
+    },
+
+    "returnToStore" : {
+      "waitTime" : 10,
+      "waitTargetDistance" : 10,
+
+      "dialog" : {
+        "follow" : {
+          "default" : [
+            "I know what the ladies like."
+          ]
+        },
+        "welcome" : {
+          "default" : [
+            "Welcome to my store!",
+            "Here we are; now what can I do ya for?"
+          ]
+        },
+        "tout" : {
+          "default" : [
+            "Get all your good here!",
+            "Everything you need, right here.",
+            "Hey you, come check out my goods!",
+            "Best deals around!",
+            "You won't find these goods anywhere else!",
+            "Cheap buys!!!"
+          ]
+					
+		
+          }
+        }
+      }
+    },
+
+    "flee" : {
+      "reactionTimeRange" : [0.2, 1.0],
+      "safeDistance" : 100,
+      "safeDistanceWithGuards" : 40,
+      "safeTimer" : 10,
+      "stuckTime" : 4,
+      "stuckCooldown" : 10,
+      "dialogTimeRange" : [4, 10],
+
+      "dialog" : {
+        "helpme" : {
+          "default" : [
+            "Guards! Help me!",
+            "Help! Guards! Help!",
+            "Guards! I've been accosted!"
+          ]
+        },
+        "helpthem" : {
+          "default" : [
+            "What have you done!?"
+          ]
+        },
+        "encourage" : {
+          "default" : [
+            "Get 'em!",
+            "Avenge me!",
+            "Stick 'em once for me!",
+            "Don't let 'em get away!"
+          ]
+        },
+        "safe" : {
+          "default" : [
+            "Phew, I think I got away.",
+            "I've escaped with my life!",
+            "Is this the safe zone?"
+          ]
+        }
+      }
+    },
+
+    "sit" : {
+      "timeOfDayRanges" : [ [0.6, 1.0], [0.0, 0.2] ],
+      "moveTimeLimit" : 30,
+      "searchRadius" : 25,
+      "sitRadius" : 3,
+      "cooldown" : 60,
+      "timeRange" : [ 15, 240 ]
+    },
+
+    "sleep" : {
+      "searchRadius" : 15,
+      "lieDownRadius" : 3,
+      "moveToBedTimeLimit" : 10.0,
+      "timeOfDayRanges" : [ [ [ 0.7, 0.75 ], [ 0.95, 1.0 ] ] ],
+      "cooldown" : 30
+    },
+
+    "wander" : {
+      "timeRange" : [2.0, 10.0],
+      "chatDistance" : 4,
+      "indoorTimeOfDayRanges" : [ [0.0, 0.2], [0.5, 1.0] ],
+      "indoorSearchRadius" : 60,
+      "indoorLookaheadDistance" : 4,
+      "moveToTargetTime" : 10.0,
+      "changeDirectionCooldown" : 2,
+      "dropDownChance" : 5,
+      "cooldown" : 10,
+      "maxDistanceFromSpawnPoint" : 10
+    },
+
+    "chat" : {
+      "distanceRange" : [ 2.0, 4.0 ],
+      "conversations" : [
+        [
+          [ 2, "blabbering", "idle" ],
+          [ 1, "idle", "laugh" ],
+          [ 2, "idle", "blabbering" ],
+          [ 1, "sad", "idle" ]
+        ],
+        [
+          [ 2, "idle", "blabbering" ],
+          [ 2, "blabbering", "happy" ],
+          [ 1, "wink", "laugh" ],
+          [ 2, "happy", "happy" ]
+        ],
+        [
+          [ 2, "idle", "blabbering" ],
+          [ 2, "blabbering", "blabbering" ],
+          [ 2, "blabbering", "annoyed" ],
+          [ 3, "shouting", "shouting" ],
+          [ 2, "annoyed", "annoyed" ]
+        ]
+      ],
+      "cooldown" : 10
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+		   "head" : [ { "name" : "Sargeant_helmet" } ],
+            "chest" : [ { "name" : "Marine_chest" } ],
+            "legs" : [ { "name" : "Marine_pants" } ],
+            "primary" : [
+              { "name" : "AssaultRifle2" }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "movementControllerSettings" : {
+    "standingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, 0.65], [0.35, 1.22], [-0.35, 1.22], [-0.75, 0.65] ],
+    "crouchingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, -0.5], [0.35, 0], [-0.35, 0], [-0.75, -0.5] ],
+
+    "mass" : 0.6,
+    "jumpSpeed" : 24.0
+  },
+
+  "humanoidTiming" : {
+    // Idle, Walk, Run, Jump, Fall, Swim, SwimIdle, Duck, Sit, Lay
+    "stateCycle" : [1.0, 0.75, 0.75, 0.25, 0.25, 0.50, 0.50, 1.0, 1.0, 1.0],
+    "stateFrames" : [1, 8, 8, 4, 4, 7, 2, 1, 1, 1],
+
+    // EmoteIdle, Blabbering, Shouting, Happy, Sad, NEUTRAL, Laugh, Annoyed, Oh, OOOH, Blink, Wink, Eat, Sleep
+    //          , normal    , caps    , :)   , :'(, :|     , :D   ,        , :o, :O  ,      , ;)
+    "emoteCycle" : [1.0, 0.3, 0.3, 0.3, 1.0, 0.3, 0.5, 1.0, 1.0, 1.0, 1.0, 0.5, 0.3, 1],
+    "emoteFrames" : [1, 2, 2, 2, 5, 2, 2, 2, 2, 3, 3, 5, 2, 2]
+  },
+    
+  "dropPools" : [ "basicMonsterTreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0
+  },
+  
+  "persistent" : true,
+
+  "splashConfig" : {
+    "splashSpeedMin" : 10.0,
+    "splashMinWaterLevel" : 0.4,
+    "splashBottomSensor" : [0, -2.0],
+    "splashTopSensor" : [0, 2.0],
+    "numSplashParticles" : 8,
+    "splashYVelocityFactor" : 0.2,
+
+    "splashParticle" : {
+      "type" : "ember",
+      "position" : [0, -1],
+      "finalVelocity" : [0, -20],
+      "approach" : [0, 50],
+      "color" : [60, 150, 224, 100],
+      "size" : 4.0,
+      "timeToLive" : 0.5,
+      "destructionAction" : "shrink",
+      "destructionTime" : 0.2
+    },
+
+    "splashParticleVariance" : {
+      "velocity" : [10, 0]
+    }
+  }
+}
+

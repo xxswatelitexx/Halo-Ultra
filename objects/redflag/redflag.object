@@ -1,0 +1,31 @@
+{
+  "objectName" : "redflag",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "Kill the Blues!!!",
+  "shortdescription" : "Red Flag",
+
+  "apexDescription" : "A large red flag.",
+  "avianDescription" : "A large red flag.",
+  "floranDescription" : "A large red flag.",
+  "glitchDescription" : "A large red flag.",
+  "humanDescription" : "A large red flag.",
+  "hylotlDescription" : "A large red flag.",
+
+  "inventoryIcon" : "redflagicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "redflag.png:default.<frame>",
+	  
+      "imagePosition" : [-16, -16],
+      "frames" : 13,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

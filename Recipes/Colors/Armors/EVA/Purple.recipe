@@ -1,0 +1,23 @@
+{
+    "output": {
+        "item": "EVA_helmet",
+        "count": 1,
+        "data": {
+            "colorIndex": 8
+        }
+    },
+    "input": [
+        {
+            "item": "PurpleSpray",
+            "count": 1
+        },
+        {
+            "item": "EVA_helmet",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "SprayStation",
+        "all"
+    ]
+}

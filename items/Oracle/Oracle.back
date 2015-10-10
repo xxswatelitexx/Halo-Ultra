@@ -1,0 +1,19 @@
+{
+"itemName" : "Oracle",
+"inventoryIcon" : "Oracleicon.png",
+"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+"rarity" : "Common",
+  "description" : "Unacceptable!!! UNACCEPTABLE!!!",
+  "shortdescription" : "343 Guilty Spark",
+
+"maleFrames" : "Oracleback.png",
+"femaleFrames" : "Oracleback.png",
+
+"statusEffects" : [
+   "light2"	
+],
+
+  "colorOptions" : [
+    /* NONE */
+	]
+} 

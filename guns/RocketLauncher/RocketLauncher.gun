@@ -1,0 +1,31 @@
+{
+  "itemName" : "RocketLauncher",
+  "inventory" : "RocketLauncher1.png",
+  "description" : "Rocket Launcher",
+  "shortdescription" : "Rocket Launcher",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 4,
+  "rarity" : "Legendary",
+  "inspectionKind" : "gun",
+  "image" : "RocketLauncher1.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [4, -4],
+  "firePosition" : [0 , 2.5],
+  "classMultiplier" : 0.1,
+
+  "fireTime" : 1.2,
+  "twoHanded" : true,
+  "tileDamage": 1000,
+
+  "projectileType" : "RocketLauncherprojectile",
+  "projectile" : {
+"power" : 56,
+"speed" : 20,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/RocketLauncher/sfx/RocketLaunchersound.ogg" } ]
+  }
+}

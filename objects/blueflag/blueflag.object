@@ -1,0 +1,31 @@
+{
+  "objectName" : "blueflag",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "Kill the Reds!!!",
+  "shortdescription" : "Blue Flag",
+
+  "apexDescription" : "A large blue flag.",
+  "avianDescription" : "A large blue flag.",
+  "floranDescription" : "A large blue flag.",
+  "glitchDescription" : "A large blue flag.",
+  "humanDescription" : "A large blue flag.",
+  "hylotlDescription" : "A large blue flag.",
+
+  "inventoryIcon" : "blueflagicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "blueflag.png:default.<frame>",
+	  
+      "imagePosition" : [-16, -16],
+      "frames" : 13,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

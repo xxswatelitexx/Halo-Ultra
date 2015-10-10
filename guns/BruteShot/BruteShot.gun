@@ -1,0 +1,32 @@
+{
+  "itemName" : "BruteShot",
+  "inventory" : "BruteShot.png",
+  "description" : "BruteShot",
+  "shortdescription" : "BruteShot",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 9,
+  "rarity" : "Legendary",
+  "inspectionKind" : "gun",
+  "image" : "BruteShot.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [2, 3],
+  "firePosition" : [7, 1],
+  "classMultiplier" : 0.1,
+
+  "fireTime" : 0.5,
+  "twoHanded" : true,
+
+  "projectileType" : "BruteShotprojectile",
+  "projectile" : {
+"power" : 854,
+"speed" : 65,
+    "color" : [10, 255, 10]
+  },
+  
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/BruteShot/sfx/BruteShotsound.ogg" } ]
+  }
+}
+
+

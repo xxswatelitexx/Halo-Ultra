@@ -1,0 +1,19 @@
+{
+  "projectileName" : "Needler1",
+  "frames" : "Needler1.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "energyCostPerDamagePoint" : 15,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "physics" : "stickybullet",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}

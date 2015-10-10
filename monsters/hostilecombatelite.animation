@@ -1,0 +1,24 @@
+{
+    "animatedParts": {
+        "parts": {
+                    "1": {
+                        "partStates": {
+                            "a": {
+                                "b": {
+                                }
+                            }
+                        }
+                    }
+                },
+                "stateTypes": {
+                    "a": {
+                        "default": "b",
+                        "states": {
+                            "b": {
+                                "frames": 1
+                            }
+                        }
+                    }
+                }
+            }
+        }

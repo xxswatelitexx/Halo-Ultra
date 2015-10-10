@@ -1,0 +1,23 @@
+{
+    "output": {
+        "item": "Mark5_helmet",
+        "count": 1,
+        "data": {
+            "colorIndex": 9
+        }
+    },
+    "input": [
+        {
+            "item": "PinkSpray",
+            "count": 1
+        },
+        {
+            "item": "Mark5_helmet",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "SprayStation",
+        "all"
+    ]
+}

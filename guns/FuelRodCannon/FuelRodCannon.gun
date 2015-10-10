@@ -1,0 +1,31 @@
+{
+  "itemName" : "FuelRodCannon",
+  "inventory" : "FuelRodCannon.png",
+  "description" : "Fuel Rod Cannon",
+  "shortdescription" : "Fuel Rod Cannon",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 8,
+  "rarity" : "Legendary",
+  "inspectionKind" : "gun",
+  "image" : "FuelRodCannon.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [1, -3],
+  "firePosition" : [0 , 2.5],
+  "classMultiplier" : 0.1,
+
+  "fireTime" : 0.7,
+  "twoHanded" : true,
+  "tileDamage": 1000,
+
+  "projectileType" : "FuelRodCannonProjectile",
+  "projectile" : {
+"power" : 700,
+"speed" : 20,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/FuelRodCannon/sfx/FuelRodCannonsound.ogg" } ]
+  }
+}

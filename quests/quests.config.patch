@@ -1,0 +1,5 @@
+[
+	{ "op" : "add","path" : "/initialquests/elite","value" : [ "elitetutorial.gearup" ] },
+	{ "op" : "add","path" : "/initialquests/brute","value" : [ "brutetutorial.gearup" ] }
+]
+

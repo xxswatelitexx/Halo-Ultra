@@ -1,0 +1,20 @@
+{
+  "projectileName" : "FuelRodCannonProjectile",
+  "frames" : "FuelRodCannonProjectile.png",
+  "physics" : "boomerang",
+  "animationCycle" : 0.5,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "fallSpeed" : 0,
+  "lightColor" : [192, 255, 192],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/guns/FuelRodCannon/projectiles/FuelRodCannon.config"
+    }
+    ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}

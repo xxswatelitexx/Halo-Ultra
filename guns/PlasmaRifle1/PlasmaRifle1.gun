@@ -1,0 +1,30 @@
+{
+  "itemName" : "PlasmaRifle1",
+  "inventory" : "PlasmaRifle1.png",
+  "description" : "Type-25 Directed Energy Rifle",
+  "shortdescription" : "Plasma Rifle",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 2,
+  "rarity" : "Uncommon",
+  "inspectionKind" : "gun",
+  "image" : "PlasmaRifle1.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [2, 0],
+  "firePosition" : [0, 0],
+  "classMultiplier" : 1.2,
+
+  "fireTime" : 0.15,
+  "twoHanded" : false,
+
+  "projectileType" : "PlasmaRifle1",
+  "projectile" : {
+"power" : 0.11,
+"speed" : 80,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/PlasmaRifle1/sfx/PlasmaRifle1sound.ogg" } ]
+  }
+}

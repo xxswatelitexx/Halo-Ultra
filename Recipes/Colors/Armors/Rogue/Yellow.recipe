@@ -1,0 +1,23 @@
+{
+    "output": {
+        "item": "Rogue_helmet",
+        "count": 1,
+        "data": {
+            "colorIndex": 6
+        }
+    },
+    "input": [
+        {
+            "item": "YellowSpray",
+            "count": 1
+        },
+        {
+            "item": "Rogue_helmet",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "SprayStation",
+        "all"
+    ]
+}

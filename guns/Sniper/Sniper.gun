@@ -1,0 +1,30 @@
+{
+  "itemName" : "Sniper1",
+  "inventory" : "SniperRifle1.png",
+  "description" : "Sniper Rifle System 99C-Series 2 Anti-Matériel",
+  "shortdescription" : "Sniper Rifle",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 2,
+  "rarity" : "uncommon",
+  "inspectionKind" : "gun",
+  "image" : "SniperRifle1.png",
+  "recoilTime" : 1,
+  "handPosition" : [-6, -2],
+  "firePosition" : [0, 1],
+  "classMultiplier" : 1,
+
+  "fireTime" : 1.2,
+  "twoHanded" : true,
+
+  "projectileType" : "Sniperprojectile",
+  "projectile" : {
+"power" : 3.8,
+"speed" : 140,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/Sniper/sfx/Snipersound.ogg" } ]
+  }
+}

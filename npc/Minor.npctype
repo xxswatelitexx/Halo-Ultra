@@ -1,0 +1,98 @@
+{
+  "type" : "Minor",
+  "baseType" : "villageguard",
+
+  "disableWornArmor" : false,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 2,
+  "levelVariance" : [0, 0],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "patrolDistance" : 25,
+      "noticeDistance" : 30,
+      "hailDistance" : 5,
+      "stopDistance" : -1,
+      "attackDistance" : -1,
+      "loseSightTime" : 10,
+      "loseSightDistance" : 30,
+      "wallCheckDistance" : 5,
+      "changeDirectionTimeRange" : [10, 20],
+
+      "attackSayingPercent" : 25,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "I smell blood."
+          ],
+          "brute" : {
+            "default" : [
+              "Get out of the way!"
+            ]
+          }
+        }
+      }
+    },
+
+    "returnToPost" : {
+      "moveTime" : 20,
+      "minDistance" : 2
+    },
+
+    "rangedAttack" : {
+      "maxDistance" : 30
+    }
+  },
+
+  "items" : {
+    "brute" : [
+      [0, [
+          {
+		   "head" : [ { "name" : "Minor_helmet" } ],
+            "chest" : [ { "name" : "BruteTemplatetier1_chest" } ],
+            "legs" : [ { "name" : "BruteTemplatetier1_pants" } ],
+            "primary" : [
+              { "name" : "Spiker" }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "dropPools" : [ "prisongunmantreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 12,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 15.0
+  }
+}
+

@@ -1,0 +1,4 @@
+[
+	{ "op" : "add", "path" : "/speciesShips/elite", "value" : [ "/ships/apex/apexT0.structure", "/ships/apex/apexT1.structure", "/ships/apex/apexT2.structure", "/ships/apex/apexT3.structure", "/ships/apex/apexT4.structure", "/ships/apex/apexT5.structure", "/ships/apex/apexT6.structure", "/ships/apex/apexT7.structure", "/ships/apex/apexT8.structure" ]},
+	{ "op" : "add", "path" : "/speciesShips/brute", "value" : [ "/ships/apex/apexT0.structure", "/ships/apex/apexT1.structure", "/ships/apex/apexT2.structure", "/ships/apex/apexT3.structure", "/ships/apex/apexT4.structure", "/ships/apex/apexT5.structure", "/ships/apex/apexT6.structure", "/ships/apex/apexT7.structure", "/ships/apex/apexT8.structure" ]}
+]

@@ -1,0 +1,23 @@
+{
+    "output": {
+        "item": "EliteTemplatetier5_chest",
+        "count": 1,
+        "data": {
+            "colorIndex": 1
+        }
+    },
+    "input": [
+        {
+            "item": "BlackSpray",
+            "count": 1
+        },
+        {
+            "item": "EliteTemplatetier5_chest",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "SprayStation",
+        "all"
+    ]
+}

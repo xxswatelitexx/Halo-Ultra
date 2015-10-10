@@ -1,0 +1,23 @@
+{
+    "output": {
+        "item": "BruteTemplatetier5_pants",
+        "count": 1,
+        "data": {
+            "colorIndex": 1
+        }
+    },
+    "input": [
+        {
+            "item": "BlackSpray",
+            "count": 1
+        },
+        {
+            "item": "BruteTemplatetier5_pants",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "SprayStation",
+        "all"
+    ]
+}

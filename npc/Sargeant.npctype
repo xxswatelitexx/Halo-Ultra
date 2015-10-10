@@ -1,0 +1,93 @@
+{
+  "type" : "Sargeant",
+  "baseType" : "Halomerchant",
+
+  "disableWornArmor" : false,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 2,
+  "levelVariance" : [0, 0],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/chatState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua",
+
+    "/npcs/merchant/merchantState.lua"
+  ],
+
+  "scriptConfig" : {
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : -1,
+
+      "dialog" : {
+        "start" : {
+          "default" : [ "I'm too pretty to die!"
+          ],
+          "human" : {
+            "default" : [
+              "Don't make me take off my belt!"
+            ]
+          }
+      }
+    },
+
+     "categories" : [ "Sargeant" ],
+      "priceVarianceRange" : [1, 1],
+      "numItems" : 20
+    },
+	
+	 "rangedAttack" : {
+      "minDistance" : 10,
+      "maxDistance" : 30,
+      "coverYOffset" : -1.5,
+      "coverYClearanceOffset" : 0.5,
+      "coverDistance" : 2.5,
+      "coverHideTimeRange" : [0.5, 1.0],
+      "coverFireTimeRange" : [1.0, 3.0],
+      "attackerSpacing" : 2.5,
+      "searchTime" : 10
+    }
+},
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+		   "head" : [ { "name" : "Sargeant_helmet" } ],
+            "chest" : [ { "name" : "Marine_chest" } ],
+            "legs" : [ { "name" : "Marine_pants" } ],
+            "primary" : [
+              { "name" : "AssaultRifle2" }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "dropPools" : [ "prisongunmantreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 12,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 15.0
+  }
+}
+

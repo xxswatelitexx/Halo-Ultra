@@ -1,0 +1,18 @@
+{
+  "projectileName" : "AssaultRifle1projectile",
+  "frames" : "AssaultRifle1projectile.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "energyCostPerDamagePoint" : 15,
+  "frameNumber" : 2,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}

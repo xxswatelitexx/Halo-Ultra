@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 800 },
+    { "item" : "steelbar", "count" : 5 }
+  ],
+  "output" : { "item" : "PlasmaRifle1", "count" : 1 },
+  "groups" : [ "GunRack" ]
+}

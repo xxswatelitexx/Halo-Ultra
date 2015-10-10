@@ -1,0 +1,10 @@
+{
+    "name": "HaloUltraV5.2",
+    "version": "Beta v. Upbeat Giraffe",
+    "path": ".",
+    "metadata": {
+        "displayName": "Halo Ultra V5.2",
+        "author": "Pantherine",
+        "description": "Halo © Microsoft Corporation. Halo Ultra was created under Microsoft's Game Content Usage Rules using assets from Halo, and it is not endorsed by or affiliated with Microsoft."
+    }
+}

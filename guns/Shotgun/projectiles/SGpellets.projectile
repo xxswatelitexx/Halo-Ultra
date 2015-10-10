@@ -1,0 +1,69 @@
+{
+  "projectileName" : "SGpellets",
+  "frames" : "SGpellets.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "SGpellet",
+      "inheritDamageFactor" : 0.11,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "SGpellet",
+      "inheritDamageFactor" : 0.11,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "SGpellet",
+      "inheritDamageFactor" : 0.11,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "SGpellet",
+      "inheritDamageFactor" : 0.11,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "SGpellet",
+      "inheritDamageFactor" : 0.11,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "SGdelayedpellet",
+      "inheritDamageFactor" : 0.11,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "SGdelayedpellet",
+      "inheritDamageFactor" : 0.11,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "SGdelayedpellet",
+      "inheritDamageFactor" : 0.11,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "SGdelayedpellet",
+      "inheritDamageFactor" : 0.12,
+	  "fuzzAngle" : 7
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

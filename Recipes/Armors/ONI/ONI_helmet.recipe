@@ -1,0 +1,8 @@
+{
+  "input" : [
+   
+    { "item" : "money", "count" : 50000 }
+  ],
+  "output" : { "item" : "ONI_helmet", "count" : 1 },
+  "groups" : [ "mod", "ArmorLocker", "armors", "all" ]
+}

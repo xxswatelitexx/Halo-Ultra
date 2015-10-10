@@ -1,0 +1,30 @@
+{
+  "itemName" : "Shotgun2",
+  "inventory" : "Shotgun2.png",
+  "description" : "Shotgun",
+  "shortdescription" : "Shotgun",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 9,
+  "rarity" : "Legendary",
+  "inspectionKind" : "gun",
+  "image" : "Shotgun2.png",
+  "recoilTime" : 1,
+  "handPosition" : [-1, -2],
+  "firePosition" : [-8, 0],
+  "classMultiplier" : 0.1,
+
+  "fireTime" : 1.2,
+  "twoHanded" : true,
+
+  "projectileType" : "SGpellets",
+  "projectile" : {
+"power" : 555,
+"speed" : 120,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/Shotgun/sfx/Shotgunsound.ogg" } ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+   
+    { "item" : "ironbar", "count" : 2 }
+  ],
+  "output" : { "item" : "Grenadier_helmet", "count" : 1 },
+  "groups" : [ "mod", "ArmorLocker", "armors", "all" ]
+}

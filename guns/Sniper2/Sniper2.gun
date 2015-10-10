@@ -1,0 +1,30 @@
+{
+  "itemName" : "Sniper2",
+  "inventory" : "SniperRifle2.png",
+  "description" : "Sniper Rifle",
+  "shortdescription" : "Sniper Rifle",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 10,
+  "rarity" : "Legendary",
+  "inspectionKind" : "gun",
+  "image" : "SniperRifle2.png",
+  "recoilTime" : 1,
+  "handPosition" : [-6, -2],
+  "firePosition" : [0, 1],
+  "classMultiplier" : 0.1,
+
+  "fireTime" : 1.2,
+  "twoHanded" : true,
+
+  "projectileType" : "Sniperprojectile",
+  "projectile" : {
+"power" : 800,
+"speed" : 140,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/Sniper/sfx/Snipersound.ogg" } ]
+  }
+}

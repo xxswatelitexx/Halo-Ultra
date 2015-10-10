@@ -1,0 +1,7 @@
+{
+  "input" : [
+      { "item" : "steelbar", "count" : 4 }
+  ],
+  "output" : { "item" : "EliteTemplatetier2_pants", "count" : 1 },
+  "groups" : [ "mod", "ArmorLocker", "armors", "all" ]
+}

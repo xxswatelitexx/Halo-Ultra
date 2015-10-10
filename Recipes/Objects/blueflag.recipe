@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "blueflag",
+    "count" : 1
+  },
+  "groups" : [ "Cortana" ]
+}

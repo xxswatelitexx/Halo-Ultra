@@ -1,0 +1,31 @@
+{
+  "objectName" : "whiteflag",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "",
+  "shortdescription" : "White Flag",
+
+  "apexDescription" : "A large white flag.",
+  "avianDescription" : "A large white flag.",
+  "floranDescription" : "A large white flag.",
+  "glitchDescription" : "A large white flag.",
+  "humanDescription" : "A large white flag.",
+  "hylotlDescription" : "A large white flag.",
+
+  "inventoryIcon" : "whiteflagicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "whiteflag.png:default.<frame>",
+	  
+      "imagePosition" : [-16, -16],
+      "frames" : 13,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

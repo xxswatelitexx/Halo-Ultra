@@ -1,0 +1,31 @@
+{
+  "objectName" : "yellowflag",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "Kill the Purples!!!",
+  "shortdescription" : "Yellow Flag",
+
+  "apexDescription" : "A large yellow flag.",
+  "avianDescription" : "A large yellow flag.",
+  "floranDescription" : "A large yellow flag.",
+  "glitchDescription" : "A large yellow flag.",
+  "humanDescription" : "A large yellow flag.",
+  "hylotlDescription" : "A large yellow flag.",
+
+  "inventoryIcon" : "yellowflagicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "yellowflag.png:default.<frame>",
+	  
+      "imagePosition" : [-16, -16],
+      "frames" : 13,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

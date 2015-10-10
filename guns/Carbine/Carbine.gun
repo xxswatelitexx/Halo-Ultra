@@ -1,0 +1,30 @@
+{
+  "itemName" : "Carbine",
+  "inventory" : "Carbine.png",
+  "description" : "Type-51 Carbine",
+  "shortdescription" : "Carbine",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 2,
+  "rarity" : "Uncommon",
+  "inspectionKind" : "gun",
+  "image" : "Carbine.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [-2, -1],
+  "firePosition" : [5, 1],
+  "classMultiplier" : 0.85,
+
+  "fireTime" : 0.17,
+  "twoHanded" : true,
+
+  "projectileType" : "Carbineprojectile",
+  "projectile" : {
+"power" : 0.7,
+"speed" : 80,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/Carbine/sfx/Carbinesound.ogg" } ]
+  }
+}

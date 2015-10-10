@@ -1,0 +1,65 @@
+{
+  "itemName" : "ODSTNPC_chest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "ODSTNPC chest piece",
+  "shortdescription" : "ODSTNPC chest piece",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 15
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 10
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 8
+    }
+  ],
+
+"colorOptions" : [
+    /* GREEN */
+    { "1d260d" : "1d260d", "2d3d15" : "2d3d15", "40531e" : "40531e", "566d29" : "566d29", "7b9b39" : "7b9b39" },
+    /* BLACK */
+    { "1d260d" : "0a0a0a", "2d3d15" : "101010", "40531e" : "161616", "566d29" : "1e1e1e", "7b9b39" : "2a2a2a" },
+    /* GREY */
+    { "1d260d" : "191919", "2d3d15" : "292929", "40531e" : "383838", "566d29" : "4b4b4b", "7b9b39" : "4b4b4b" },
+    /* WHITE */
+    { "1d260d" : "333333", "2d3d15" : "515151", "40531e" : "afafaf", "566d29" : "b7b7b7", "7b9b39" : "c3c3c3" },
+    /* RED */
+    { "1d260d" : "260e0d", "2d3d15" : "3d1815", "40531e" : "531f1e", "566d29" : "6d2929", "7b9b39" : "9b393a" },
+    /* ORANGE */
+    { "1d260d" : "321a00", "2d3d15" : "512e01", "40531e" : "6d3a03", "566d29" : "8e4b07", "7b9b39" : "cb6808" },
+    /* YELLOW */
+    { "1d260d" : "2e2805", "2d3d15" : "4a4308", "40531e" : "64570c", "566d29" : "837113", "7b9b39" : "bb9f19" },
+    /* BLUE */
+    { "1d260d" : "0d1926", "2d3d15" : "15263d", "40531e" : "1e3753", "566d29" : "294a6d", "7b9b39" : "396a9b" },
+    /* PURPLE */
+    { "1d260d" : "150c26", "2d3d15" : "25143e", "40531e" : "311d54", "566d29" : "3f276e", "7b9b39" : "57369d" },
+    /* PINK */
+    { "1d260d" : "290a19", "2d3d15" : "421025", "40531e" : "591736", "566d29" : "75214a", "7b9b39" : "a72d6a" },
+    /* BROWN */
+    { "1d260d" : "231d0f", "2d3d15" : "393019", "40531e" : "4d4023", "566d29" : "665430", "7b9b39" : "917643" }
+
+  ]
+}

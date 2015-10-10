@@ -1,0 +1,23 @@
+{
+    "output": {
+        "item": "BruteTemplatetier9_chest",
+        "count": 1,
+        "data": {
+            "colorIndex": 9
+        }
+    },
+    "input": [
+        {
+            "item": "PinkSpray",
+            "count": 1
+        },
+        {
+            "item": "BruteTemplatetier9_chest",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "SprayStation",
+        "all"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "projectileName" : "PlasmaGrenade1",
+  "frames" : "PlasmaGrenade1.png",
+  "physics" : "stickybomb",
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 3,
+  "power" : 5,
+  "speed" : 60,
+  "timeToLive" : 0.6,
+  "bounces" : 1,
+  "actionOnReap" : [
+    {
+  "action" : "config",
+      "file" : "/guns/PlasmaGrenade/PlasmaGrenade1.config"
+    }
+  ],
+
+  "lightColor" : [255, 180, 0],
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

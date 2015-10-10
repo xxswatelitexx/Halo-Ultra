@@ -1,0 +1,30 @@
+{
+  "itemName" : "BeamRifle",
+  "inventory" : "BeamRifle.png",
+  "description" : "Beam Rifle",
+  "shortdescription" : "Beam Rifle",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 8,
+  "rarity" : "Legendary",
+  "inspectionKind" : "gun",
+  "image" : "BeamRifle.png",
+  "recoilTime" : 1,
+  "handPosition" : [-2, 0],
+  "firePosition" : [5, 0],
+  "classMultiplier" : 0.1,
+
+  "fireTime" : 1.2,
+  "twoHanded" : true,
+
+  "projectileType" : "BeamRifleprojectile",
+  "projectile" : {
+"power" : 500,
+"speed" : 140,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/guns/BeamRifle/sfx/BeamRiflesound.ogg" } ]
+  }
+}

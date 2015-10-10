@@ -1,0 +1,31 @@
+{
+  "objectName" : "blackflag",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "",
+  "shortdescription" : "Black Flag",
+
+  "apexDescription" : "A large black flag.",
+  "avianDescription" : "A large black flag.",
+  "floranDescription" : "A large black flag.",
+  "glitchDescription" : "A large black flag.",
+  "humanDescription" : "A large black flag.",
+  "hylotlDescription" : "A large black flag.",
+
+  "inventoryIcon" : "blackflagicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "blackflag.png:default.<frame>",
+	  
+      "imagePosition" : [-16, -16],
+      "frames" : 13,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
